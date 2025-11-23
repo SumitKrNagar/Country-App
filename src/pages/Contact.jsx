@@ -6,7 +6,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="section-contact">
+    <section className="section-contact country-Mpage">
       <h2 className="container-title">Contact Us</h2>
 
       <div className="contact-wrapper container">

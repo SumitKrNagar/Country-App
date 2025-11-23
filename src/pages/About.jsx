@@ -2,7 +2,7 @@ import countryFacts from "../api/countryData.json";
 
 export const About = () => {
   return (
-    <section className="section-about container">
+    <section className="section-about container country-Mpage">
       <h2 className="container-title">
         Here are the Interesting Facts
         <br />

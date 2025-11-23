@@ -37,11 +37,11 @@ export const SearchFilter = ({
       </div>
 
       <div>
-        <button onClick={() => sortCountries("asc")}>Asc</button>
+        <button onClick={() => sortCountries("asc")} style={{margin: 0}}>Asc</button>
       </div>
 
       <div>
-        <button onClick={() => sortCountries("des")}>Desc</button>
+        <button onClick={() => sortCountries("des")} style={{margin: 0}}>Desc</button>
       </div>
 
       <div>

@@ -25,7 +25,7 @@ export const CountryDetails = () => {
 
   console.log(params);
   return (
-    <section className="card country-details-card container">
+    <section className="card country-details-card container country-Mpage">
       <div className="container-card bg-white-box">
         {country && (
           <div className="country-image grid grid-two-cols">

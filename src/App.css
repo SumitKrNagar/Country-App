@@ -121,7 +121,6 @@ header {
 nav ul {
   display: flex;
   justify-content: flex-end;
-  /* background-color: yellow; */
   gap: 3.2rem;
   color: #fff;
 
@@ -158,6 +157,8 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 999;
 
     & li:first-child {
       margin-top: 1.2rem;
@@ -167,7 +168,29 @@ nav ul {
       margin-bottom: 1.2rem;
     }
   }
+
+  .section-searchFilter {
+  flex-direction: column !important;
+  gap: 2rem;
+  margin-bottom: 0 !important;
 }
+
+.country-section{
+  margin-top: 5rem !important;
+}
+
+.country-Mpage{
+  padding: 0 3rem !important;
+}
+
+.section-contact{
+  margin: 4rem auto !important;
+}
+
+}
+
+
+
 
 /* hero section  */
 
@@ -446,6 +469,7 @@ country Card
   width: 100%;
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 3.2rem;
 
@@ -463,6 +487,8 @@ country Card
     color: rgba(255, 255, 255, 0.8);
     border: 0.05rem solid #fff;
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    border-radius: 2rem;
+    padding: 0.7rem;
   }
 
   & .select-section {

@@ -14,7 +14,7 @@ export const Footers = () => {
 
   return (
     <footer className="footer-section">
-      <div className="container grid grid-three-cols">
+      <div className="container grid grid-three-cols country-Mpage">
         {footerContact.map((curData, index) => {
           const { icon, title, details } = curData;
           return (

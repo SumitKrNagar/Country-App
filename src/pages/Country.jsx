@@ -50,7 +50,7 @@ export const Country = () => {
         setCountries={setCountries}
       />
 
-      <ul className="grid grid-four-cols">
+      <ul className="grid grid-four-cols country-Mpage">
         {filterCountries.map((curCountry, index) => {
           return <CountryCard country={curCountry} key={index} />;
         })}
